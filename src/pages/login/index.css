@@ -1,0 +1,117 @@
+.caixa-login{
+    width: 480px;
+    margin: auto;
+    margin-top: 100px;
+    height: auto;
+    border: 3px  solid #a7c3e7;
+    padding: 50px;
+}
+
+.titulo-login {
+    text-align: center;
+    font-size: 22px;
+    color: var(--cor-primaria);
+  }
+  .grupo-link 
+  {
+    text-decoration: none;
+    color: #333;
+    background: -webkit-linear-gradient(15deg, #67C7DB, #00d9ff);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ font-style: italic;
+ text-align: right;
+
+  }
+
+  .btn-light {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #222;
+    --bs-btn-border-color: #222;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #1d1d1d;
+    --bs-btn-hover-border-color: #1b1b1b;
+    --bs-btn-focus-shadow-rgb: 67, 67, 67;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #1b1b1b;
+    --bs-btn-active-border-color: #1a1a1a;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #222;
+    --bs-btn-disabled-border-color: #222;
+    width: 160px;
+  }
+
+  .botao-entrar {
+    display: flex;
+    justify-content: center;
+  }
+
+  .grupo-email {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .grupo-email label {
+    font-size: 17px;
+    margin-bottom: 5px;
+  }
+  
+  .grupo-email input[type="email"] {
+    font-size: 17px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .grupo-senha {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .grupo-senha label {
+    font-size: 17px;
+    margin-bottom: 5px;
+  }
+  
+  .grupo-senha input[type="password"] {
+    font-size: 17px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+
+  
+  .body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: transparent; /* Changed to transparent */
+  }
+  
+  .caixa-de-login {
+    width: 480px;
+    margin: auto;
+    margin-top: 100px;
+    height: auto;
+    border: 3px solid #67C7DB;
+    padding: 50px;
+    background-color: transparent; /* Changed to transparent */
+  }
+  
+  .titulo-login {
+    text-align: center;
+    font-size: 22px;
+    color: var(--cor-primaria); /* The color variable is still present */
+  }
+
+  #loading{
+    display: none;
+}
